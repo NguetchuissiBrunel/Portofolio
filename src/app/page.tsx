@@ -2,10 +2,8 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { useTheme } from 'next-themes';
 
 export default function Home() {
-  const { theme, setTheme } = useTheme();
 
   return (
     <div className="min-h-screen bg-animate text-black dark:text-white transition-colors duration-300 font-sans overflow-hidden">

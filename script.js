@@ -126,7 +126,7 @@
                 });
                 
                 // Create new trail element
-                if (Math.random() > 0.8) { // Only create occasionally for performance
+                if (Math.random() > 0.5) { // Only create occasionally for performance
                     const trailElement = document.createElement('div');
                     trailElement.className = 'cursor-trail';
                     trailElement.dataset.time = Date.now();
